@@ -1,0 +1,11 @@
+
+  spring:
+    redis:
+      pool:
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+      host: 192.168.229.128
+      port: 6379
+      password: 123456
+      database: 0
